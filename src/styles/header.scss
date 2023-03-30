@@ -1,0 +1,33 @@
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    > h2{
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 50px;
+    }
+
+    > div{
+        display: flex;
+        align-items: center;
+
+        > a{
+            color: white;
+            font-size: 20px;
+            display: flex;
+             margin: 0 20px;
+             transition: all 0.3s;
+             & :hover{
+                opacity: 0.4;
+             }
+
+             >p{
+                position: relative;
+             }
+        }
+    }
+}
